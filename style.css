@@ -1,0 +1,20 @@
+.about-header{
+    color: chocolate;
+    
+}
+
+#nav-bar {
+/* border: 2px red solid; */
+
+background-color: blueviolet;
+height: 45px;
+}
+
+
+#nav-bar a{
+
+    color:rgb(226, 231, 176);
+    font-size: 32px;
+    font-stretch: expanded;
+}
+

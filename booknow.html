@@ -1,0 +1,148 @@
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+    
+        <body>
+            <div id="nav-bar" >
+        
+                <a href="index.html">BRIANAIR</a>
+                <a href="tokyo.html">Japan</a>
+                <a href="athens.html">Greece</a>
+                <a href="Contactus.html">Contact us</a>
+                <a href="About.html">About us</a>
+                <a href="booknow.html">BOOK NOW!</a>
+                
+                <input type="text" placeholder="Search..">
+              Athens <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:120px;height:40px;"src="https://www.clocklink.com/html5embed.php?clock=004&timezone=Greece_Athens&color=yellow&size=120&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=yellow"></iframe>
+              Tokyo
+        <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:120px;height:40px;"src="https://www.clocklink.com/html5embed.php?clock=004&timezone=JST&color=yellow&size=120&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=yellow"></iframe>
+            UK  <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:120px;height:40px;"src="https://www.clocklink.com/html5embed.php?clock=004&timezone=UnitedKingdom_London&color=yellow&size=120&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=yellow"></iframe>
+        </div>
+            </div>
+        
+            </div>
+</body>
+
+
+
+<form action="reservation.php" method="post">
+    <div class="elem-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+      <label for="email">Your E-mail</label>
+      <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+    </div>
+    <div class="elem-group">
+      <label for="phone">Your Phone</label>
+      <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+    </div>
+    <hr>
+    <div class="elem-group inlined">
+      <label for="adult">Adults</label>
+      <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="child">Children</label>
+      <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="checkin-date">Check-in Date</label>
+      <input type="date" id="checkin-date" name="checkin" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="checkout-date">Check-out Date</label>
+      <input type="date" id="checkout-date" name="checkout" required>
+    </div>
+    <div class="elem-group">
+      <label for="Holiday choice">Select holiday choice</label>
+      <select id="Holiday choice" name="Holiday choice" required>
+          <option value="">Choose a holiday from the List</option>
+          <option value="Japan">Japan</option>
+          <option value="Greece">Greece</option>
+      </select>
+    </div>
+    <hr>
+    <div class="elem-group">
+      <label for="message">Anything Else?</label>
+      <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+    </div>
+    <button type="submit">Book The Rooms</button>
+  </form>
+
+
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" class="css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-content">
+        </div>
+
+        <div class="centre-content">
+            <h1 class="price">£2499<span>/-</span></h1>
+            </p>
+        </div>
+
+        <div class="last-content">
+           
+
+            <!-- <button type="button" class="pay-now-btn">
+        Netbanking options
+        </button> -->
+        </div>
+
+        <!-- <div class="card-details"> -->
+            <!-- <p>Pay using Credit or Debit card</p> -->
+
+            <div class="card-number">
+                <label> Card Number </label>
+                <input type="text" 
+                       class="card-number-field" 
+                       placeholder="###-###-###" />
+            </div>
+            <br />
+            <div class="date-number">
+                <label> Expiry Date </label>
+                <input type="text" 
+                       class="date-number-field" 
+                       placeholder="DD-MM-YY" />
+            </div>
+
+            <div class="cvv-number">
+                <label> CVV number </label>
+                <input type="text" 
+                       class="cvv-number-field" 
+                       placeholder="xxx" />
+            </div>
+            <div class="nameholder-number">
+                <label> Card Holder name </label>
+                <input type="text" 
+                       class="card-name-field" 
+                       placeholder="Enter your Name" />
+            </div>
+            <button type="submit" class="submit-now-btn">
+                Submit
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
